@@ -3,7 +3,7 @@
    #FONT
    ========================================================================== */
 .font-robo {
-  font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
+  font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
 }
 
 .font-poppins {
@@ -33,9 +33,9 @@
 }
 
 .col-2 {
-  width: -webkit-calc((100% - 30px) / 2);
-  width: -moz-calc((100% - 30px) / 2);
-  width: calc((100% - 30px) / 2);
+  width: -webkit-calc((100%));
+  width: -moz-calc((100%));
+  width: calc((100%));
 }
 
 @media (max-width: 767px) {

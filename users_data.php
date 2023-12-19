@@ -1,4 +1,6 @@
 <?php
+// Include Dashboard
+include 'dashboard.php';
 
 $host_name = "localhost";
 $username = "root";
@@ -11,6 +13,7 @@ $conn = new mysqli($host_name, $username, $password, $dbname);
 // Query
 $query = "SELECT * FROM users";
 $result = mysqli_query($conn, $query);
+
 
 ?>
 
@@ -41,8 +44,8 @@ $result = mysqli_query($conn, $query);
             <td> <?php echo $row['email'] ?></td>
             <td> <?php echo $row['phone'] ?></td>
             <td> 
-                <div class="btn btn-warning">Edit</div>
-                <div class="btn btn-danger">Delete</div>
+                <a class="btn btn-warning">Edit</a>
+                <a class="btn btn-danger">Delete</a>
             </td>
         
             
